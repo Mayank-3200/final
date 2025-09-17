@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: Call Sample Playwright Run API
         run: |
-          curl --location 'https://beta8.moontechnolabs.com/tms-one-api/api/v1/playwright/run-tests-ciCD?id=276,275&projectId=MjY=&email=superadmin@yopmail.com'
+          curl --location 'https://beta8.moontechnolabs.com/tms-one-api/api/v1/playwright/run-tests-ciCD?id=276,275&projectId=&email=superadmin@yopmail.com'
