@@ -58,6 +58,8 @@ jobs:
           curl --location 'https://beta8.moontechnolabs.com/tms-one-api/api/v1/api-test-runner/get-files' \
             --header 'Accept: application/json, text/plain, */*' \
             -F "attachments=@results.html;type=text/html" \
+            -F "projectId=MjY=" \
+            -F "email=superadmin@yopmail.com" \
             -F "total=${{ env.TOTAL }}" \
             -F "pass=${{ env.PASSED }}" \
             -F "failed=${{ env.FAILED }}" \
