@@ -55,7 +55,7 @@ jobs:
 
       - name: Call REST API with summary + HTML report
         run: |
-          curl --location 'https://beta8.moontechnolabs.com/tms-one-api/api/v1/api-test-runner/get-files' \
+          curl --location 'https://fleshlily-unwithstanding-lou.ngrok-free.dev/api/v1/api-test-runner/get-files' \
             --header 'Accept: application/json, text/plain, */*' \
             -F "attachments=@results.html;type=text/html" \
             -F "projectId=MjY=" \
